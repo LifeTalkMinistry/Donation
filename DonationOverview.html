@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LifeTalk Coaching Program</title>
+    <title>LifeTalk Ministry Donations</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,8 +15,8 @@
         }
         .container {
             width: 90%;
-            max-width: 1200px; /* Constrain maximum width for large screens */
-            margin: 20px auto; /* Add space at the top and center horizontally */
+            max-width: 1200px;
+            margin: 20px auto;
             overflow: hidden;
         }
         header {
@@ -24,12 +24,12 @@
             width: 100%;
             height: auto;
             overflow: hidden;
-            margin-bottom: 20px; /* Add space below the header */
+            margin-bottom: 20px;
         }
         header img {
             width: 100%;
             height: auto;
-            object-fit: cover; /* Ensure the image scales properly */
+            object-fit: cover;
             display: block;
         }
         .section {
@@ -43,6 +43,10 @@
             color: #333;
             font-size: 2rem;
             margin-bottom: 15px;
+        }
+        .description {
+            margin: 10px 0 15px;
+            color: #555;
         }
         .cta-button {
             background-color: #28a745;
@@ -59,10 +63,9 @@
             background-color: #218838;
         }
 
-        /* Responsive Design for Mobile Devices */
         @media (max-width: 768px) {
             .container {
-                width: 95%; /* Slightly wider for small screens */
+                width: 95%;
             }
             .section {
                 padding: 15px;
@@ -76,13 +79,12 @@
             }
         }
 
-        /* Adjustments for Extra Large Screens */
         @media (min-width: 1200px) {
             .container {
-                max-width: 1000px; /* Limit container width to maintain readability */
+                max-width: 1000px;
             }
             header {
-                max-height: 400px; /* Allow a taller header for larger screens */
+                max-height: 400px;
             }
         }
     </style>
@@ -90,26 +92,49 @@
 <body>
     <!-- Header with Image -->
     <header>
-        <img src="Donation Header.png" alt="LifeTalk Coaching Program Header">
+        <img src="Donation Header.png" alt="LifeTalk Ministry Header">
     </header>
 
     <div class="container">
-        <!-- Basic Clarity Session -->
+        <!-- Supporter -->
         <section class="section">
             <h2>₱50 - Supporter</h2>
-            <a href="Price 1.html" class="cta-button">Click Here to See More</a>
+            <p class="description">
+                - Unlimited access to personal coaching episodes for a month.<br>
+                - Exclusive updates on upcoming podcast content.
+            </p>
+            <p class="description">
+                <strong>How your donation helps:</strong> Covers basic production costs and helps us inspire more listeners.
+            </p>
+            <a href="Supporter.html" class="cta-button">Donate as Supporter</a>
         </section>
 
-        <!-- Growth & Progress Session -->
+        <!-- Partner -->
         <section class="section">
-            <h2>2. Growth & Progress Session - ₱750</h2>
-            <a href="Price2.html" class="cta-button">Click Here to See More</a>
+            <h2>₱500 - Partner</h2>
+            <p class="description">
+                - Everything in the Supporter tier.<br>
+                - Access to exclusive behind-the-scenes content.<br>
+                - A digital “thank you” card featuring a personalized message.
+            </p>
+            <p class="description">
+                <strong>How your donation helps:</strong> Improves audio quality and supports platform expansion.
+            </p>
+            <a href="Partner.html" class="cta-button">Donate as Partner</a>
         </section>
 
-        <!-- Transformation & Clarity Coaching -->
+        <!-- Lifetalk Advocate -->
         <section class="section">
-            <h2>3. Transformation & Clarity Coaching - ₱1000</h2>
-            <a href="Price3.html" class="cta-button">Click Here to See More</a>
+            <h2>₱1000 - Lifetalk Advocate</h2>
+            <p class="description">
+                - Everything in the Partner tier.<br>
+                - A special shout-out on one of our podcast episodes.<br>
+                - Access to an exclusive monthly webinar with actionable life coaching insights.
+            </p>
+            <p class="description">
+                <strong>How your donation helps:</strong> Allows us to grow the ministry’s reach, spreading hope and wisdom to more people.
+            </p>
+            <a href="Advocate.html" class="cta-button">Donate as Advocate</a>
         </section>
     </div>
 </body>
